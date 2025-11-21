@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "cedarscript": {
+      "command": "python",
+      "args": [
+        "-m",
+        "cedarscript_mcp.server",
+        "--root",
+        "${workspaceFolder}"
+      ],
+      "env": {
+        "CEDARSCRIPT_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
